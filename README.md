@@ -10,4 +10,6 @@ To install:
 4. To start the program run the MainClass.java as a Java application.
 
 To use:
-1. 
+1. When you start the program the GUI will open to displaying the tables and operations available to you.
+2. Table 1 lists the nodes that are installed across the country containing the city they are located in, gps location, transmission rate, opearting frequency, and peak performance as a percentage. Using the Node details box you can perform CRUD actions on Table 1. Entering the details of a new node and clicking the INSERT button will enter a new node entry onto Table 1. You can alter the data of an existing node by entering the new details with the corresponding Node_ID and clicking UPDATE. Clicking the EXPORT button will create a .csv of the current data in Table 1 when can be copied into excel to undergo data analysis. If you wish to delete a node entry you only need to enter the Node_ID of the node you wish to delete and click the DELETE button to remove the node from Table 1. Clicking the CLEAR button removes the text from the Node details text boxes.
+3. 
