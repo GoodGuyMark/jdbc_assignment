@@ -17,4 +17,7 @@ To use:
  - Clicking the EXPORT button will create a .csv of the current data in Table 1 when can be copied into excel to undergo data analysis. 
  - If you wish to delete a node entry you only need to enter the Node_ID of the node you wish to delete and click the DELETE button to remove the node from Table 1.
  - Clicking the CLEAR button removes the text from the Node details text boxes.
-3.  
+3. Table 2 lists the perfomance rating of each node over an hourly period. The same CRUD actions from Table 1 can be performed onto Table 2 by use of the Performance Details box.
+4. Audit Table 1 lists all transactions that have taken place for Table 1. Audit table 2 lists all transactions that have taken place for Table 2.
+5. Clicking the 'Sort Signal Loss by Locations' button performs a RIGHT JOIN on the location from Table 1, to all columns in Table 2 excluding the node number, allowing the user to sort the performance readings by Location, and see where in Ireland the nodes were affected the worst. This function will output a .csv file that can be copied into Excel for further data analysis.
+6. Clicking the 'Average % Signal Attenuation / Hour' button performs eight different stored functions that calculate the average of every column on Table 2, essentially calculating the average of each performance reading every time period. (This is not currently working)
