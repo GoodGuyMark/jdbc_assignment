@@ -5,4 +5,5 @@ This project was an assignment from my Data Architecture & Database Systems modu
 
 To install:
 1. Download the code by cloning the repository or downloading the zip folder directly.
-2. Create the database by 
+2. Create the database by running the database.sql file in a local MySQL server (You will need the MySQL Workbench to do this. You can download this here: https://dev.mysql.com/downloads/workbench/)
+3. Import your project into a Java IDE (I use Eclipse but other IDEs should have no problem running this).
