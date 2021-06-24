@@ -21,3 +21,6 @@ How to use the Application:
 4. Audit Table 1 lists all transactions that have taken place for Table 1. Audit table 2 lists all transactions that have taken place for Table 2.
 5. Clicking the 'Sort Signal Loss by Locations' button performs a RIGHT JOIN on the location from Table 1, to all columns in Table 2 excluding the node number, allowing the user to sort the performance readings by Location, and see where in Ireland the nodes were affected the worst. This function will output a .csv file that can be copied into Excel for further data analysis.
 6. Clicking the 'Average % Signal Attenuation / Hour' button performs eight different stored functions that calculate the average of every column on Table 2, essentially calculating the average of each performance reading every time period. (This is not currently working)
+
+![Jre Screenshot 2021 06 24 - 19 56 19 27](https://user-images.githubusercontent.com/68013944/123317753-494a1f00-d526-11eb-90eb-eb2c9859bec6.png)
+
